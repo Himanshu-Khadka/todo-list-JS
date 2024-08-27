@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TO-DO</h1>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Enter a task">
+            <button onclick="addTask()" id="addBtn">Add Task</button>
+        </div>
+        <ul id="task-list">
+            <!-- Tasks will be added here -->
+        </ul>
+        <div class="task-count">
+            <p>Completed Tasks: <span id="completed-count">0</span></p>
+            <p>Incomplete Tasks: <span id="incomplete-count">0</span></p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
